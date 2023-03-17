@@ -7,7 +7,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-var places = ['Lahore', 'Karachi', 'Quetta'];
+var places = ['Lahore', 'Karachi', 'Islamabad'];
 console.log('Original Array: ', places);
 console.log('Alphabetical Order: ', __spreadArray([], places, true).sort());
 console.log('Original Array: ', places);

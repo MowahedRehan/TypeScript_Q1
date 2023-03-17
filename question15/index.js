@@ -1,4 +1,4 @@
-var names = ["Muhammad", 'Irfan', 'Sultan'];
+var names = ["Mowahed", 'Rehan', 'Irfan'];
 var printInvitations = function (name) { return console.log("Dear ".concat(name, ",\nYou are cordially invited to dinner at my place.Please let me know if you can make it.\nSincerely, Muhamamd Irfan\n")); };
 names.forEach(function (name) {
     printInvitations(name);

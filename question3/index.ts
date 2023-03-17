@@ -1,2 +1,2 @@
-let personName="Muhammad";
+let personName="Mowahed";
 console.log(`Hello ${personName}, would you like to learn some Python today?`);

@@ -1,4 +1,4 @@
-let places:string[]=['Lahore','Karachi','Quetta'];
+let places:string[]=['Lahore','Karachi','Islamabad'];
 console.log('Original Array: ', places);
 
 console.log('Alphabetical Order: ',[...places].sort());
