@@ -12,7 +12,7 @@ names.forEach(function (name) {
 console.log("Hey! i got a big dinner table, so i'm inviting more guests.");
 names.unshift('Irfan');
 names.splice(2, 0, 'Ali');
-names.push('Usman');
+names.push('Waqas');
 names.forEach(function (name) {
     printInvitations(name);
 });

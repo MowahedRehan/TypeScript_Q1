@@ -5,12 +5,12 @@ names.forEach(function (name) {
 });
 var busyGuestIndex = Math.floor(Math.random() * names.length);
 console.log("".concat(names[busyGuestIndex], " can't make it to the dinner.\n"));
-names[busyGuestIndex] = 'Irfan';
+names[busyGuestIndex] = 'Muhammad';
 names.forEach(function (name) {
     printInvitations(name);
 });
 console.log("Hey! i got a big dinner table, so i'm inviting more guests.");
-names.unshift('Irfan');
+names.unshift('Muhammad');
 names.splice(2, 0, 'Ali');
 names.push('Usman');
 names.forEach(function (name) {

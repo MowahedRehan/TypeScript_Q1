@@ -6,7 +6,7 @@ names.forEach((name:string)=>{
 let busyGuestIndex=Math.floor(Math.random()*names.length);
 
 console.log(`${names[busyGuestIndex]} can't make it to the dinner.\n`);
-names[busyGuestIndex]='Irfan';
+names[busyGuestIndex]='Muhammad';
 
 names.forEach((name: string) => {
     printInvitations(name);
@@ -14,7 +14,7 @@ names.forEach((name: string) => {
 
 console.log(`Hey! i got a big dinner table, so i'm inviting more guests.`);
 
-names.unshift('Irfan');
+names.unshift('Muhammad');
 names.splice(2,0,'Ali');
 names.push('Usman');
 

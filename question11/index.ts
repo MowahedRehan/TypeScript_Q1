@@ -1,4 +1,4 @@
-let personName:string[]=["Muhammad",'Irfan','Mowahed','Rehan','Ali'];
+let personName:string[]=["Rehan",'Muhammad','Mowahed','Waqas','Ali'];
 console.log(personName[0]);
 console.log(personName[1]);
 console.log(personName[2]);
